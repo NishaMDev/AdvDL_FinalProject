@@ -31,6 +31,8 @@ CIFAR-100 dataset which has numerous images of all gender and age groups. The da
 # EfficientNetB0 Architecture
 <img width="1002" alt="image" src="https://user-images.githubusercontent.com/89233753/206949064-d5ec72d8-ce55-4e6e-98f2-f9f7f24ffcc4.png">
 
+*Image Source - TowardsDataScience (link - https://towardsdatascience.com/complete-architectural-details-of-all-efficientnet-models-5fd5b736142)*
+
 
 # MLOPS Experimentation using Weights and Biases
 
@@ -72,12 +74,25 @@ The result for true and predicted image after model validation can be seen here 
 ---
 #### Presentation Video Link: https://drive.google.com/drive/folders/1WhH1X2MJKQw_S4MOnh74HSUTF0OwCjd7?usp=sharing
 ---
-#### Project Report Link: https://docs.google.com/document/d/1w742029Bo8WR4Wt6phQQ0hGevDQ_xig73Dv7DBJKIgo/edit?usp=sharing
+#### Project Report Pdf Link: https://drive.google.com/drive/folders/1mx1pN57WYwSqMHK6Nte0a6P0dsgpC9m9?usp=share_link
 ---
 #### Project colab Link: https://colab.research.google.com/drive/1dnnV4oSz_EoH_4q3O-kyD9EnVHcFQqQX?authuser=1#scrollTo=BEFrM-eMWaGo
+---
+### Team Contribution:
+<img width="1093" alt="image" src="https://user-images.githubusercontent.com/77387431/207209271-4336f215-5bfa-4726-8463-d338182072e5.png">
+
+# Steps to run the project
+<ol>
+<li>Open Google Colab and select runtime type as GPU.</li>
+<li>Run the colab as it is from the beginning till the end.</li>
+<li>The Colab has integration with Weights and Biases for MLOPS for organizing and analyzing  deep learning experiments. It also saves the model’s hyperparameters and output metrics and gives us all visual charts like for training, comparison of model, accuracy, etc.
+  
+  Please note - Before running the colab once should have an account in W&B to reflect the metric charts in the dashboard for experimentation</li>
+  <li>All the model artifacts are stored in wandb artifacts registry</li>
+<ol>
 
 
-Referenes :
+# Referenes :
 <ul>
 <li>https://towardsdatascience.com/using-convolutional-neural-network-for-image-classification-5997bfd0ede4</li>
 <li>https://www.irjet.net/archives/V7/i11/IRJET-V7I11204.pdf</li>
